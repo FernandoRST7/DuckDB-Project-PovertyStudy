@@ -1,0 +1,171 @@
+region_code,country_name,country_code
+SSA,Angola,AGO
+ECA,Albania,ALB
+OHI,United Arab Emirates,ARE
+LAC,Argentina,ARG
+ECA,Armenia,ARM
+OHI,Australia,AUS
+OHI,Austria,AUT
+ECA,Azerbaijan,AZE
+SSA,Burundi,BDI
+OHI,Belgium,BEL
+SSA,Benin,BEN
+SSA,Burkina Faso,BFA
+SAS,Bangladesh,BGD
+ECA,Bulgaria,BGR
+ECA,Bosnia and Herzegovina,BIH
+ECA,Belarus,BLR
+LAC,Belize,BLZ
+LAC,Bolivia,BOL
+LAC,Brazil,BRA
+SAS,Bhutan,BTN
+SSA,Botswana,BWA
+SSA,Central African Republic,CAF
+OHI,Canada,CAN
+OHI,Switzerland,CHE
+LAC,Chile,CHL
+EAP,China,CHN
+SSA,Cote d'Ivoire,CIV
+SSA,Cameroon,CMR
+SSA,"Congo, Dem. Rep.",COD
+SSA,"Congo, Rep.",COG
+LAC,Colombia,COL
+SSA,Comoros,COM
+SSA,Cabo Verde,CPV
+LAC,Costa Rica,CRI
+OHI,Cyprus,CYP
+ECA,Czechia,CZE
+OHI,Germany,DEU
+MNA,Djibouti,DJI
+OHI,Denmark,DNK
+LAC,Dominican Republic,DOM
+MNA,Algeria,DZA
+LAC,Ecuador,ECU
+MNA,"Egypt, Arab Rep.",EGY
+OHI,Spain,ESP
+ECA,Estonia,EST
+SSA,Ethiopia,ETH
+OHI,Finland,FIN
+EAP,Fiji,FJI
+OHI,France,FRA
+EAP,"Micronesia, Fed. Sts.",FSM
+SSA,Gabon,GAB
+OHI,United Kingdom,GBR
+ECA,Georgia,GEO
+SSA,Ghana,GHA
+SSA,Guinea,GIN
+SSA,"Gambia, The",GMB
+SSA,Guinea-Bissau,GNB
+OHI,Greece,GRC
+LAC,Grenada,GRD
+LAC,Guatemala,GTM
+LAC,Guyana,GUY
+LAC,Honduras,HND
+ECA,Croatia,HRV
+LAC,Haiti,HTI
+ECA,Hungary,HUN
+EAP,Indonesia,IDN
+SAS,India,IND
+OHI,Ireland,IRL
+MNA,"Iran, Islamic Rep.",IRN
+MNA,Iraq,IRQ
+OHI,Iceland,ISL
+OHI,Israel,ISR
+OHI,Italy,ITA
+LAC,Jamaica,JAM
+MNA,Jordan,JOR
+OHI,Japan,JPN
+ECA,Kazakhstan,KAZ
+SSA,Kenya,KEN
+ECA,Kyrgyz Republic,KGZ
+EAP,Kiribati,KIR
+OHI,"Korea, Rep.",KOR
+EAP,Lao PDR,LAO
+MNA,Lebanon,LBN
+SSA,Liberia,LBR
+LAC,St. Lucia,LCA
+SAS,Sri Lanka,LKA
+SSA,Lesotho,LSO
+ECA,Lithuania,LTU
+OHI,Luxembourg,LUX
+ECA,Latvia,LVA
+MNA,Morocco,MAR
+ECA,Moldova,MDA
+SSA,Madagascar,MDG
+SAS,Maldives,MDV
+LAC,Mexico,MEX
+EAP,Marshall Islands,MHL
+ECA,North Macedonia,MKD
+SSA,Mali,MLI
+OHI,Malta,MLT
+EAP,Myanmar,MMR
+ECA,Montenegro,MNE
+EAP,Mongolia,MNG
+SSA,Mozambique,MOZ
+SSA,Mauritania,MRT
+SSA,Mauritius,MUS
+SSA,Malawi,MWI
+EAP,Malaysia,MYS
+SSA,Namibia,NAM
+SSA,Niger,NER
+SSA,Nigeria,NGA
+LAC,Nicaragua,NIC
+OHI,Netherlands,NLD
+OHI,Norway,NOR
+SAS,Nepal,NPL
+EAP,Nauru,NRU
+SAS,Pakistan,PAK
+LAC,Panama,PAN
+LAC,Peru,PER
+EAP,Philippines,PHL
+EAP,Papua New Guinea,PNG
+ECA,Poland,POL
+OHI,Portugal,PRT
+LAC,Paraguay,PRY
+MNA,West Bank and Gaza,PSE
+OHI,Qatar,QAT
+ECA,Romania,ROU
+ECA,Russian Federation,RUS
+SSA,Rwanda,RWA
+SSA,Sudan,SDN
+SSA,Senegal,SEN
+EAP,Solomon Islands,SLB
+SSA,Sierra Leone,SLE
+LAC,El Salvador,SLV
+ECA,Serbia,SRB
+SSA,South Sudan,SSD
+SSA,Sao Tome and Principe,STP
+LAC,Suriname,SUR
+ECA,Slovak Republic,SVK
+ECA,Slovenia,SVN
+OHI,Sweden,SWE
+SSA,Eswatini,SWZ
+SSA,Seychelles,SYC
+MNA,Syrian Arab Republic,SYR
+SSA,Chad,TCD
+SSA,Togo,TGO
+EAP,Thailand,THA
+ECA,Tajikistan,TJK
+ECA,Turkmenistan,TKM
+EAP,Timor-Leste,TLS
+EAP,Tonga,TON
+LAC,Trinidad and Tobago,TTO
+MNA,Tunisia,TUN
+ECA,Turkiye,TUR
+EAP,Tuvalu,TUV
+OHI,"Taiwan, China",TWN
+SSA,Tanzania,TZA
+SSA,Uganda,UGA
+ECA,Ukraine,UKR
+LAC,Uruguay,URY
+OHI,United States,USA
+ECA,Uzbekistan,UZB
+LAC,"Venezuela, RB",VEN
+EAP,Viet Nam,VNM
+EAP,Vanuatu,VUT
+EAP,Samoa,WSM
+ECA,Kosovo,XKX
+MNA,"Yemen, Rep.",YEM
+SSA,South Africa,ZAF
+SSA,Zambia,ZMB
+SSA,Zimbabwe,ZWE
