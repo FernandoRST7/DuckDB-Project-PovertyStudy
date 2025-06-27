@@ -2,8 +2,9 @@ import duckdb
 
 con = duckdb.connect("poverty_study_denormalized.duckdb")
 
-# --- Consulta 1: Correlação entre PIB e taxa de desemprego por região na América Latina ---
-# Esta consulta seria complexa no modelo original, exigindo múltiplos JOINs. Agora é trivial.
+# 1. Análise de Desemprego, Desigualdade e Educação por País
+# Consulta que relaciona a taxa de desemprego, o coeficiente de Gini e a taxa de matrícula no ensino
+# secundário para avaliar como a educação pode influenciar a desigualdade e o desemprego em diferentes países.
 print("\n--- Consulta 1: GDP vs Desemprego na América Latina ---")
 result1 = con.execute("""
 SELECT 
@@ -36,57 +37,35 @@ result1.to_csv('results_duck/consulta1_resultado.csv', index=False)
 
 print(result1)
 
-# --- Consulta 2: Média do Gini e da linha de pobreza por região ---
-# Agregação simples na tabela desnormalizada de surveys.
+# 2. Relação entre Saúde e Educação
+# Consulta que analisa a relação entre saúde e educação usando os dados mais recentes por país. Revela como
+# investimentos e resultados nestas áreas se correlacionam, oferecendo insights sobre desenvolvimento humano.
+# Ideal para comparações internacionais e identificação de prioridades de políticas públicas.
 print("\n--- Consulta 2: Média do Gini e Linha de Pobreza por Região ---")
 result2 = con.execute("""
-SELECT 
+SELECT
     country_name,
-    gender,
-    ROUND(AVG(life_expectancy)::numeric, 2) AS avg_life_expectancy,
-    ROUND(AVG(expenditure_health)::numeric, 2) AS avg_health_expenditure,
-    ROUND(AVG(death_rate)::numeric, 2) AS avg_crude_death_rate,
-    NTILE(4) OVER (
-        PARTITION BY gender 
-        ORDER BY AVG(expenditure_health) DESC
-    ) AS health_expenditure_quartile,
-    ROUND((AVG(life_expectancy) / NULLIF(AVG(expenditure_health), 0))::numeric, 2) 
-        AS avg_life_expectancy_per_expenditure
+    year AS reference_year,
+    expenditure AS education_expenditure,
+    sec_enrol AS secondary_enrollment_rate,
+    child_out_of_school,
+    expenditure_health,
+                      
+    ROUND(expenditure_health::numeric / NULLIF(expenditure, 0)::numeric, 2) AS health_education_exp_ratio,
+    ROUND((sec_enrol * life_expectancy_male / 100)::numeric, 2) AS education_health_index_male,
+    ROUND((sec_enrol * life_expectancy_female / 100)::numeric, 2) AS education_health_index_female
 FROM (
-    SELECT 
-        country_name,
-        death_rate,
-        expenditure_health,
-        'female' AS gender,
-        life_expectancy_female AS life_expectancy
+    SELECT *,
+    ROW_NUMBER() OVER (PARTITION BY country_code ORDER BY year DESC) AS rn
     FROM country_indicators
-    WHERE life_expectancy_female IS NOT NULL
-    
-    UNION ALL
-    
-    SELECT 
-        country_name,
-        death_rate,
-        expenditure_health,
-        'male' AS gender,
-        life_expectancy_male AS life_expectancy
-    FROM country_indicators
-    WHERE life_expectancy_male IS NOT NULL
-) AS unpivoted_data
-WHERE 
-    life_expectancy IS NOT NULL
-    AND expenditure_health IS NOT NULL
-    AND death_rate IS NOT NULL
-    AND expenditure_health > 0
-GROUP BY 
-    country_name,
-    gender
-ORDER BY 
-    country_name,
-    gender,
-    health_expenditure_quartile, 
-    avg_life_expectancy_per_expenditure DESC, 
-    avg_crude_death_rate ASC;
+    WHERE 
+        expenditure > 0
+        AND expenditure_health > 0
+        AND sec_enrol BETWEEN 0 AND 100
+) ranked
+WHERE rn = 1
+ORDER BY
+    country_name;
 """).fetchdf()
 
 # Exportando para CSV
@@ -95,8 +74,9 @@ result2.to_csv('results_duck/consulta2_resultado.csv', index=False)
 print(result2)
 
 
-# --- Consulta 3: Países com maior aumento no gasto com saúde em 5 anos ---
-# Usa uma função de janela (LAG) para comparar um ano com o anterior.
+# 3. População Urbana, PIB e Migração Líquida
+# Consulta que mostra, para cada país, o dado mais recente disponível sobre população urbana, PIB e taxa de migração
+# líquida, destacando a taxa de urbanização e a tendência migratória (entrada, saída ou estabilidade populacional).
 print("\n--- Consulta 3: Aumento do Gasto com Saúde ---")
 result3 = con.execute("""
 WITH latest_data AS (
@@ -132,9 +112,9 @@ result3.to_csv('results_duck/consulta3_resultado.csv', index=False)
 
 print(result3)
 
-
-# --- Consulta 4: Análise da desigualdade: razão entre o decil mais rico e o mais pobre ---
-# Demonstra o poder da tabela pivotada. O cálculo é direto.
+# 4. Impacto da Educação e Saúde na Pobreza
+# Consulta que avalia como a taxa média de matrícula no ensino primário e os gastos médios com saúde se relacionam com a
+# taxa média de pobreza, criando um índice combinado de educação e saúde para analisar seu impacto na redução da pobreza.
 print("\n--- Consulta 4: Razão de Desigualdade (Decil 10 vs 1) ---")
 result4 = con.execute("""
 SELECT 
@@ -167,8 +147,11 @@ result4.to_csv('results_duck/consulta4_resultado.csv', index=False)
 
 print(result4)
 
-# --- Consulta 5: Usando a cláusula SUMMARIZE para obter múltiplas agregações ---
-# SUMMARIZE é uma sintaxe conveniente do DuckDB para múltiplas agregações.
+
+# 5. Desigualdade, Pobreza e Distribuição de Renda por Decil
+# Consulta que, para a pesquisa mais recente de cada país, apresenta o coeficiente de Gini, a taxa de pobreza e 
+# a diferença entre a participação dos 10% mais ricos e dos 10% mais pobres na renda,classificando os países
+# conforme o grau de desigualdade na distribuição de renda.
 print("\n--- Consulta 5: Resumo Estatístico por Região ---")
 result5 = con.execute("""
 SELECT 
