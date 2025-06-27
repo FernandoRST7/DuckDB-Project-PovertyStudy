@@ -93,6 +93,8 @@ decile1 a decile10: porcentagem de renda correspondente a cada decil (pivotados 
 
 Relacionamento com country_indicators apenas por `country_code` e `year`, já que os anos e critérios das pesquisas podem não coincidir exatamente.
 
+![Modelo Lógico](models/Logic_model.png)
+
 
 ## 3. O modelo **físico** e **populado**  
 
