@@ -1,0 +1,155 @@
+country_name,avg_primary_enrollment_rate,avg_health_expenditure,avg_poverty_rate,education_health_index,poverty_category
+United States,100.21,16.625,0.01,1666.015,Low Poverty
+Marshall Islands,106.273,15.055,0.009,1599.892,Low Poverty
+"Micronesia, Fed. Sts.",103.032,15.139,0.123,1559.817,Moderate Poverty
+Namibia,118.945,9.648,0.261,1147.588,Moderate Poverty
+Germany,103.756,10.808,0.0,1121.371,Low Poverty
+Kiribati,104.366,10.737,0.079,1120.605,Low Poverty
+France,102.21,10.903,0.0,1114.411,Low Poverty
+Japan,102.256,10.674,0.007,1091.519,Low Poverty
+Burundi,115.386,9.353,0.663,1079.223,High Poverty
+Switzerland,102.893,10.443,0.0,1074.508,Low Poverty
+Netherlands,106.344,9.971,0.001,1060.36,Low Poverty
+Portugal,109.497,9.653,0.004,1056.986,Low Poverty
+Sierra Leone,110.614,9.529,0.324,1054.012,High Poverty
+Sweden,109.398,9.502,0.004,1039.459,Low Poverty
+Belgium,102.476,10.123,0.001,1037.36,Low Poverty
+Austria,101.511,10.181,0.004,1033.439,Low Poverty
+Argentina,114.782,8.994,0.025,1032.316,Low Poverty
+Canada,99.108,10.149,0.003,1005.885,Low Poverty
+Denmark,100.37,9.972,0.002,1000.882,Low Poverty
+Timor-Leste,127.979,7.605,0.244,973.256,Moderate Poverty
+Maldives,105.523,9.21,0.026,971.902,Low Poverty
+Brazil,107.43,9.013,0.043,968.247,Low Poverty
+United Kingdom,102.878,9.351,0.003,962.032,Low Poverty
+West Bank and Gaza,91.709,10.336,0.004,947.874,Low Poverty
+Lesotho,114.171,8.22,0.493,938.443,High Poverty
+Uruguay,109.326,8.52,0.003,931.403,Low Poverty
+Bosnia and Herzegovina,99.558,9.355,0.001,931.325,Low Poverty
+El Salvador,107.044,8.648,0.068,925.717,Low Poverty
+Australia,103.171,8.783,0.006,906.173,Low Poverty
+Montenegro,101.365,8.884,0.02,900.561,Low Poverty
+Spain,102.849,8.739,0.008,898.794,Low Poverty
+Norway,99.421,9.03,0.002,897.767,Low Poverty
+Finland,99.665,8.931,0.001,890.113,Low Poverty
+Serbia,100.707,8.792,0.021,885.439,Low Poverty
+Italy,102.09,8.596,0.011,877.547,Low Poverty
+Malta,100.529,8.66,0.002,870.622,Low Poverty
+Rwanda,131.027,6.623,0.612,867.851,High Poverty
+Armenia,98.108,8.744,0.027,857.897,Low Poverty
+Nauru,97.024,8.841,0.017,857.835,Low Poverty
+Iceland,98.809,8.534,0.001,843.238,Low Poverty
+Greece,98.854,8.493,0.008,839.618,Low Poverty
+Slovenia,99.356,8.384,0.0,833.011,Low Poverty
+Colombia,117.62,7.079,0.088,832.604,Low Poverty
+Ireland,102.115,8.081,0.003,825.219,Low Poverty
+Liberia,88.413,9.324,0.268,824.358,Moderate Poverty
+Georgia,105.25,7.789,0.106,819.81,Moderate Poverty
+Chile,102.212,7.904,0.019,807.893,Low Poverty
+Costa Rica,110.352,7.31,0.024,806.715,Low Poverty
+Malawi,137.857,5.828,0.683,803.439,High Poverty
+Moldova,105.213,7.544,0.0,793.708,Low Poverty
+Jordan,92.763,8.404,0.001,779.6,Low Poverty
+Eswatini,113.681,6.688,0.472,760.256,High Poverty
+Honduras,96.281,7.886,0.166,759.315,Moderate Poverty
+Sao Tome and Principe,114.203,6.637,0.192,757.996,Moderate Poverty
+South Africa,101.826,7.402,0.245,753.76,Moderate Poverty
+Czechia,100.936,7.269,0.0,733.75,Low Poverty
+Panama,103.595,7.082,0.051,733.619,Low Poverty
+Hungary,100.465,7.283,0.002,731.636,Low Poverty
+Bulgaria,101.337,7.169,0.018,726.492,Low Poverty
+Solomon Islands,104.111,6.948,0.386,723.342,High Poverty
+Croatia,98.849,7.305,0.005,722.096,Low Poverty
+Slovak Republic,100.86,7.073,0.003,713.354,Low Poverty
+Ecuador,104.59,6.667,0.073,697.253,Low Poverty
+North Macedonia,95.928,7.257,0.042,696.127,Low Poverty
+"Korea, Rep.",99.787,6.919,0.002,690.431,Low Poverty
+"Iran, Islamic Rep.",109.198,6.311,0.006,689.131,Low Poverty
+Nicaragua,109.373,6.279,0.134,686.77,Moderate Poverty
+Israel,96.82,7.02,0.004,679.703,Low Poverty
+Albania,104.606,6.448,0.014,674.546,Low Poverty
+Ukraine,98.167,6.812,0.003,668.744,Low Poverty
+Cyprus,100.068,6.648,0.0,665.257,Low Poverty
+Botswana,102.447,6.463,0.208,662.114,Moderate Poverty
+Uganda,119.346,5.496,0.499,655.959,High Poverty
+Lithuania,102.46,6.375,0.01,653.172,Low Poverty
+Paraguay,107.137,6.006,0.047,643.477,Low Poverty
+Togo,121.924,5.15,0.459,627.85,High Poverty
+Nepal,125.795,4.958,0.163,623.662,Moderate Poverty
+Guatemala,105.323,5.883,0.103,619.619,Moderate Poverty
+Comoros,104.618,5.912,0.166,618.517,Moderate Poverty
+Tunisia,107.304,5.752,0.018,617.165,Low Poverty
+Latvia,102.256,6.027,0.009,616.31,Low Poverty
+Kyrgyz Republic,97.716,6.251,0.085,610.836,Low Poverty
+Poland,98.259,6.209,0.002,610.099,Low Poverty
+Myanmar,120.054,5.081,0.02,609.952,Low Poverty
+Bolivia,105.519,5.732,0.087,604.834,Low Poverty
+Estonia,100.914,5.991,0.008,604.557,Low Poverty
+Guinea-Bissau,113.27,5.267,0.667,596.6,High Poverty
+Luxembourg,98.393,5.966,0.001,587.035,Low Poverty
+Mozambique,108.816,5.366,0.726,583.898,High Poverty
+Mexico,107.848,5.373,0.05,579.515,Low Poverty
+Seychelles,118.173,4.903,0.007,579.35,Low Poverty
+Madagascar,128.628,4.485,0.765,576.876,High Poverty
+Belarus,100.315,5.644,0.015,566.209,Low Poverty
+Russian Federation,101.886,5.478,0.004,558.153,Low Poverty
+Uzbekistan,97.079,5.707,0.614,553.984,High Poverty
+Algeria,112.388,4.826,0.0,542.349,Low Poverty
+Tonga,112.156,4.795,0.015,537.736,Low Poverty
+Peru,108.134,4.946,0.094,534.829,Low Poverty
+Tajikistan,96.088,5.561,0.168,534.342,Moderate Poverty
+Jamaica,93.553,5.676,0.009,530.982,Low Poverty
+Zambia,103.14,5.071,0.615,523.028,High Poverty
+Cabo Verde,108.726,4.767,0.116,518.279,Moderate Poverty
+Romania,96.941,5.241,0.025,508.103,Low Poverty
+Dominican Republic,109.207,4.619,0.042,504.442,Low Poverty
+Mongolia,104.259,4.77,0.02,497.281,Low Poverty
+Viet Nam,107.913,4.588,0.079,495.132,Low Poverty
+China,100.611,4.847,0.041,487.664,Low Poverty
+Turkiye,104.388,4.639,0.008,484.221,Low Poverty
+Kenya,104.671,4.491,0.33,470.066,High Poverty
+Morocco,102.344,4.505,0.045,461.038,Low Poverty
+Zimbabwe,98.011,4.703,0.37,460.919,High Poverty
+Sudan,76.265,6.036,0.169,460.306,Moderate Poverty
+Syrian Arab Republic,107.857,4.148,0.072,447.419,Low Poverty
+Cameroon,107.562,4.153,0.264,446.655,Moderate Poverty
+"Egypt, Arab Rep.",94.859,4.683,0.018,444.235,Low Poverty
+Mauritius,99.147,4.475,0.003,443.66,Low Poverty
+Grenada,96.5,4.584,0.003,442.33,Low Poverty
+Tanzania,90.931,4.858,0.575,441.773,High Poverty
+"Yemen, Rep.",83.267,5.206,0.105,433.473,Moderate Poverty
+Samoa,96.258,4.492,0.022,432.394,Low Poverty
+St. Lucia,95.748,4.514,0.027,432.226,Low Poverty
+Philippines,103.91,3.986,0.101,414.17,Moderate Poverty
+Vanuatu,116.191,3.511,0.123,407.989,Moderate Poverty
+"Congo, Dem. Rep.",109.922,3.599,0.743,395.635,High Poverty
+Ethiopia,84.337,4.534,0.308,382.392,High Poverty
+Burkina Faso,77.556,4.926,0.407,382.072,High Poverty
+Bhutan,101.13,3.703,0.044,374.453,Low Poverty
+Sri Lanka,97.666,3.795,0.042,370.604,Low Poverty
+Thailand,100.597,3.652,0.005,367.335,Low Poverty
+India,108.588,3.259,0.168,353.856,Moderate Poverty
+Ghana,96.457,3.603,0.311,347.538,High Poverty
+Guinea,86.244,4.02,0.35,346.735,High Poverty
+Malaysia,98.859,3.478,0.004,343.814,Low Poverty
+Fiji,100.424,3.413,0.011,342.72,Low Poverty
+Qatar,106.432,3.212,0.0,341.898,Low Poverty
+Senegal,81.634,4.089,0.307,333.795,High Poverty
+Kazakhstan,101.551,3.243,0.02,329.345,Low Poverty
+Niger,62.365,5.252,0.625,327.513,High Poverty
+"Gambia, The",80.266,4.08,0.278,327.502,Moderate Poverty
+Benin,114.103,2.862,0.382,326.553,High Poverty
+Nigeria,87.803,3.677,0.359,322.81,High Poverty
+Mali,71.736,4.477,0.382,321.185,High Poverty
+Chad,85.211,3.698,0.39,315.119,High Poverty
+Lao PDR,112.152,2.788,0.157,312.625,Moderate Poverty
+Central African Republic,76.476,4.026,0.619,307.921,High Poverty
+Cote d'Ivoire,82.473,3.627,0.236,299.149,Moderate Poverty
+Indonesia,109.442,2.714,0.155,296.98,Moderate Poverty
+Angola,99.842,2.959,0.229,295.42,Moderate Poverty
+Mauritania,88.072,3.331,0.127,293.368,Moderate Poverty
+United Arab Emirates,82.41,3.502,0.0,288.619,Low Poverty
+Azerbaijan,97.242,2.624,0.013,255.188,Low Poverty
+Bangladesh,105.783,2.246,0.157,237.56,Moderate Poverty
+"Congo, Rep.",107.179,1.735,0.425,185.961,High Poverty
+Pakistan,72.577,2.419,0.139,175.587,Moderate Poverty

@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 
+"""Script para pré-processamento de dados para DuckDB, cria as novas tabelas a partir dos CSVs do banco normalizado (Projeto 1)."""
+
 print("Iniciando o script de pré-processamento para o DuckDB...")
 
 # --- 1. Definir os caminhos dos arquivos ---

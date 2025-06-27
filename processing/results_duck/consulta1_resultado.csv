@@ -1,0 +1,151 @@
+country_name,avg_unemployment_rate,avg_gini_coefficient,avg_secondary_enrollment_rate,enrollment_category
+Albania,12.73,0.32,93.44,High Enrollment
+Algeria,20.9,0.33,72.01,Moderate Enrollment
+Angola,,0.47,17.59,Low Enrollment
+Argentina,10.2,0.46,94.24,High Enrollment
+Armenia,14.34,0.32,89.82,High Enrollment
+Australia,6.51,0.34,145.19,High Enrollment
+Austria,5.13,0.3,100.95,High Enrollment
+Bangladesh,3.64,0.31,43.25,Low Enrollment
+Belarus,2.74,0.27,99.44,High Enrollment
+Belgium,7.69,0.28,149.94,High Enrollment
+Belize,12.14,0.57,66.02,Moderate Enrollment
+Benin,2.65,0.41,44.21,Low Enrollment
+Bhutan,3.9,0.36,74.71,Moderate Enrollment
+Bolivia,3.99,0.5,86.2,High Enrollment
+Bosnia and Herzegovina,28.28,0.33,82.77,High Enrollment
+Botswana,25.67,0.6,52.03,Moderate Enrollment
+Brazil,9.81,0.53,98.67,High Enrollment
+Bulgaria,9.68,0.34,96.61,High Enrollment
+Burkina Faso,4.13,0.41,24.47,Low Enrollment
+Burundi,2.11,0.36,25.49,Low Enrollment
+Cabo Verde,31.31,0.47,76.61,Moderate Enrollment
+Cameroon,4.33,0.43,42.23,Low Enrollment
+Canada,8.07,0.33,101.84,High Enrollment
+Central African Republic,,0.59,10.01,Low Enrollment
+Chad,1.14,0.4,19.87,Low Enrollment
+Chile,8.0,0.49,92.88,High Enrollment
+China,3.28,0.33,60.1,Moderate Enrollment
+Colombia,11.66,0.54,85.67,High Enrollment
+Comoros,6.36,0.51,51.64,Moderate Enrollment
+"Congo, Dem. Rep.",4.49,0.42,40.06,Low Enrollment
+Costa Rica,8.49,0.48,83.67,High Enrollment
+Cote d'Ivoire,,0.4,37.53,Low Enrollment
+Croatia,11.88,0.31,99.57,High Enrollment
+Cyprus,8.73,0.32,96.79,High Enrollment
+Czechia,5.15,0.26,99.19,High Enrollment
+Denmark,5.93,0.27,124.12,High Enrollment
+Dominican Republic,6.29,0.46,75.37,Moderate Enrollment
+Ecuador,4.91,0.49,81.81,High Enrollment
+"Egypt, Arab Rep.",9.84,0.31,74.45,Moderate Enrollment
+El Salvador,5.64,0.45,63.14,Moderate Enrollment
+Estonia,8.89,0.33,105.37,High Enrollment
+Eswatini,22.72,0.54,58.25,Moderate Enrollment
+Ethiopia,3.71,0.35,22.58,Low Enrollment
+Fiji,8.94,0.36,81.8,High Enrollment
+Finland,8.59,0.27,126.83,High Enrollment
+France,9.22,0.32,103.36,High Enrollment
+"Gambia, The",,0.44,48.53,Low Enrollment
+Georgia,13.29,0.37,97.51,High Enrollment
+Germany,7.18,0.3,102.03,High Enrollment
+Ghana,,0.4,47.66,Low Enrollment
+Greece,16.62,0.35,101.45,High Enrollment
+Guatemala,2.31,0.52,34.57,Low Enrollment
+Guinea,4.55,0.39,23.89,Low Enrollment
+Honduras,5.42,0.52,52.97,Moderate Enrollment
+Hungary,7.16,0.29,98.27,High Enrollment
+Iceland,4.43,0.28,112.51,High Enrollment
+India,7.1,0.34,61.62,Moderate Enrollment
+Indonesia,5.11,0.34,72.17,Moderate Enrollment
+"Iran, Islamic Rep.",11.56,0.38,82.7,High Enrollment
+Ireland,8.82,0.33,117.07,High Enrollment
+Israel,7.9,0.4,95.03,High Enrollment
+Italy,9.45,0.34,90.65,High Enrollment
+Jamaica,13.16,0.42,77.92,Moderate Enrollment
+Japan,4.04,0.33,101.78,High Enrollment
+Jordan,13.56,0.36,84.28,High Enrollment
+Kazakhstan,5.0,0.28,99.79,High Enrollment
+Kenya,9.96,0.46,47.16,Low Enrollment
+Kiribati,,0.37,82.25,High Enrollment
+"Korea, Rep.",3.44,0.33,97.92,High Enrollment
+Kyrgyz Republic,6.79,0.3,87.54,High Enrollment
+Lao PDR,,0.35,40.82,Low Enrollment
+Latvia,11.49,0.35,101.63,High Enrollment
+Lesotho,10.0,0.54,35.17,Low Enrollment
+Liberia,2.08,0.33,37.14,Low Enrollment
+Lithuania,10.68,0.35,101.75,High Enrollment
+Luxembourg,4.12,0.31,93.86,High Enrollment
+Madagascar,1.61,0.43,24.53,Low Enrollment
+Malawi,,0.42,34.54,Low Enrollment
+Malaysia,4.03,0.45,75.68,Moderate Enrollment
+Maldives,4.56,0.35,66.11,Moderate Enrollment
+Mali,1.62,0.4,27.22,Low Enrollment
+Malta,5.45,0.29,99.43,High Enrollment
+Marshall Islands,6.34,0.35,110.42,High Enrollment
+Mauritania,10.42,0.39,21.1,Low Enrollment
+Mauritius,7.75,0.37,90.45,High Enrollment
+Mexico,3.96,0.5,79.99,Moderate Enrollment
+"Micronesia, Fed. Sts.",,0.42,87.3,High Enrollment
+Moldova,1.43,0.26,99.72,High Enrollment
+Mongolia,5.92,0.32,79.55,Moderate Enrollment
+Montenegro,18.74,0.34,92.72,High Enrollment
+Morocco,14.54,0.39,38.92,Low Enrollment
+Mozambique,,0.49,23.98,Low Enrollment
+Myanmar,1.36,0.31,71.26,Moderate Enrollment
+Namibia,,0.67,59.97,Moderate Enrollment
+Nauru,,0.32,79.41,Moderate Enrollment
+Nepal,,0.34,49.17,Low Enrollment
+Netherlands,5.51,0.28,119.72,High Enrollment
+Nicaragua,4.75,0.49,52.59,Moderate Enrollment
+Niger,1.31,0.37,11.53,Low Enrollment
+Nigeria,4.31,0.36,41.39,Low Enrollment
+North Macedonia,30.34,0.37,83.63,High Enrollment
+Norway,3.67,0.27,112.05,High Enrollment
+Pakistan,3.19,0.31,27.94,Low Enrollment
+Panama,9.2,0.53,69.89,Moderate Enrollment
+Paraguay,5.67,0.5,69.49,Moderate Enrollment
+Peru,4.48,0.47,88.76,High Enrollment
+Philippines,4.93,0.43,80.08,High Enrollment
+Poland,10.37,0.32,101.67,High Enrollment
+Portugal,9.52,0.36,109.84,High Enrollment
+Qatar,0.14,0.35,102.31,High Enrollment
+Romania,6.39,0.31,89.37,High Enrollment
+Russian Federation,6.67,0.39,93.53,High Enrollment
+Rwanda,,0.44,23.77,Low Enrollment
+Samoa,,0.41,79.41,Moderate Enrollment
+Sao Tome and Principe,8.81,0.36,70.28,Moderate Enrollment
+Senegal,2.85,0.39,31.92,Low Enrollment
+Serbia,16.22,0.33,93.28,High Enrollment
+Seychelles,3.53,0.41,87.76,High Enrollment
+Sierra Leone,3.19,0.35,40.36,Low Enrollment
+Slovak Republic,11.82,0.26,93.63,High Enrollment
+Slovenia,6.78,0.25,102.91,High Enrollment
+Solomon Islands,,0.42,39.28,Low Enrollment
+South Africa,25.14,0.62,85.74,High Enrollment
+Spain,17.39,0.35,115.92,High Enrollment
+Sri Lanka,9.07,0.36,84.02,High Enrollment
+St. Lucia,,0.47,91.55,High Enrollment
+Sudan,13.0,0.35,44.53,Low Enrollment
+Sweden,6.66,0.27,119.17,High Enrollment
+Switzerland,3.93,0.33,98.62,High Enrollment
+Syrian Arab Republic,8.86,0.36,57.44,Moderate Enrollment
+Tajikistan,4.64,0.32,79.04,Moderate Enrollment
+Tanzania,3.6,0.38,16.02,Low Enrollment
+Thailand,1.2,0.4,79.49,Moderate Enrollment
+Timor-Leste,5.24,0.32,53.21,Moderate Enrollment
+Togo,3.11,0.42,55.04,Moderate Enrollment
+Tonga,2.11,0.34,102.04,High Enrollment
+Trinidad and Tobago,20.77,0.41,79.66,Moderate Enrollment
+Tunisia,14.01,0.39,65.11,Moderate Enrollment
+Turkiye,11.02,0.41,95.55,High Enrollment
+Uganda,3.55,0.42,20.59,Low Enrollment
+Ukraine,8.48,0.27,94.52,High Enrollment
+United Kingdom,6.8,0.33,95.84,High Enrollment
+United States,6.21,0.38,94.64,High Enrollment
+Uruguay,9.63,0.42,100.99,High Enrollment
+Uzbekistan,0.35,0.34,89.24,High Enrollment
+Vanuatu,1.85,0.37,53.75,Moderate Enrollment
+"Venezuela, RB",10.86,0.48,62.93,Moderate Enrollment
+Viet Nam,1.66,0.36,92.58,High Enrollment
+West Bank and Gaza,20.49,0.35,88.84,High Enrollment
+"Yemen, Rep.",16.05,0.35,42.38,Low Enrollment
