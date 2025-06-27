@@ -7,8 +7,8 @@ print("Iniciando o script de pré-processamento para o DuckDB...")
 
 # --- 1. Definir os caminhos dos arquivos ---
 # É uma boa prática definir os caminhos em variáveis para facilitar a manutenção.
-base_path_global = 'global_indicators/entities_csv/'
-base_path_poverty = 'poverty_inequality/entities_csv/'
+base_path_global = 'processing/global_indicators/entities_csv/'
+base_path_poverty = 'processing/poverty_inequality/entities_csv/'
 
 # Criar a pasta de destino se não existir
 output_dir = 'duckdb_ready_data'
