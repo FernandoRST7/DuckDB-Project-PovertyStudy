@@ -5,7 +5,7 @@ con = duckdb.connect("poverty_study_denormalized.duckdb")
 # 1. Análise de Desemprego, Desigualdade e Educação por País
 # Consulta que relaciona a taxa de desemprego, o coeficiente de Gini e a taxa de matrícula no ensino
 # secundário para avaliar como a educação pode influenciar a desigualdade e o desemprego em diferentes países.
-print("\n--- Consulta 1: GDP vs Desemprego na América Latina ---")
+print("\n--- Consulta 1: Análise de Desemprego, Desigualdade e Educação por País ---")
 result1 = con.execute("""
 SELECT 
     ci.country_name,
@@ -41,7 +41,7 @@ print(result1)
 # Consulta que analisa a relação entre saúde e educação usando os dados mais recentes por país. Revela como
 # investimentos e resultados nestas áreas se correlacionam, oferecendo insights sobre desenvolvimento humano.
 # Ideal para comparações internacionais e identificação de prioridades de políticas públicas.
-print("\n--- Consulta 2: Média do Gini e Linha de Pobreza por Região ---")
+print("\n--- Consulta 2: Relação entre Saúde e Educação (Dados Mais Recentes) ---")
 result2 = con.execute("""
 SELECT
     country_name,
@@ -77,7 +77,7 @@ print(result2)
 # 3. População Urbana, PIB e Migração Líquida
 # Consulta que mostra, para cada país, o dado mais recente disponível sobre população urbana, PIB e taxa de migração
 # líquida, destacando a taxa de urbanização e a tendência migratória (entrada, saída ou estabilidade populacional).
-print("\n--- Consulta 3: Aumento do Gasto com Saúde ---")
+print("\n--- Consulta 3: População Urbana, PIB e Migração Líquida (Dados Mais Recentes) ---")
 result3 = con.execute("""
 WITH latest_data AS (
     SELECT 
@@ -115,7 +115,7 @@ print(result3)
 # 4. Impacto da Educação e Saúde na Pobreza
 # Consulta que avalia como a taxa média de matrícula no ensino primário e os gastos médios com saúde se relacionam com a
 # taxa média de pobreza, criando um índice combinado de educação e saúde para analisar seu impacto na redução da pobreza.
-print("\n--- Consulta 4: Razão de Desigualdade (Decil 10 vs 1) ---")
+print("\n--- Consulta 4: Impacto da Educação e Saúde na Pobreza ---")
 result4 = con.execute("""
 SELECT 
     ci.country_name,
@@ -152,7 +152,7 @@ print(result4)
 # Consulta que, para a pesquisa mais recente de cada país, apresenta o coeficiente de Gini, a taxa de pobreza e 
 # a diferença entre a participação dos 10% mais ricos e dos 10% mais pobres na renda,classificando os países
 # conforme o grau de desigualdade na distribuição de renda.
-print("\n--- Consulta 5: Resumo Estatístico por Região ---")
+print("\n--- Consulta 5: Desigualdade, Pobreza e Distribuição de Renda por Decil (Pesquisa Mais Recente) ---")
 result5 = con.execute("""
 SELECT 
     country_name,
